@@ -1,0 +1,90 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url(./img/spotify-background-new.png);
+    background-size: cover;
+
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(12, 227, 80, 0.072);
+    height: 18vh;
+
+}
+
+/* LOGO */
+.logo{
+    padding-left: 50px;
+}
+
+ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+    padding-right: 60px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: green;
+}
+
+
+/* SECOND LAYER */
+.content-input{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+.h1{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.link-input{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link-input a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 20px 60px;
+    color: white;
+    background: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.link-input a:hover{
+    color: #000;
+    background: rgb(7, 77, 7);
+}
+
+
